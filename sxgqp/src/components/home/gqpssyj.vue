@@ -16,19 +16,21 @@
       </div>
     </div>
     <!-- title (矩形) -->
+
     <div id="u28" class="ax_default box_2">
-      <img id="u28_img" class="img " src="src/assets/images/首页/u28.svg">
+      <img id="u28_img" class="img " src="src/assets/images/首页/u28.svg"/>
       <div id="u28_text" class="text ">
-        <p><span>高切坡实时预警</span></p>
-        <!-- 按区域,按时间 (下拉列表) -->
-        <div id="u48" class="ax_default droplist" style="cursor: pointer;">
-          <div id="u48_div" class=""></div>
-          <select id="u48_input" class="u48_input" tabindex="0">
-            <option class="u48_input_option" value="按区域">按区域</option>
-            <option class="u48_input_option" value="按时间">按时间</option>
-          </select>
-        </div>
+        <p><span>&nbsp;&nbsp; &nbsp; 高切坡实时预警</span></p>
       </div>
+    </div>
+        <!-- 按区域,按时间 (下拉列表) -->
+    <!-- Unnamed (下拉列表) -->
+    <div id="u48" class="ax_default droplist">
+      <div id="u48_div" class=""></div>
+      <select id="u48_input" class="u48_input">
+        <option class="u48_input_option" value="按区域">按区域</option>
+        <option class="u48_input_option" value="按时间">按时间</option>
+      </select>
     </div>
     <!-- 预警区域 (组合) -->
     <div id="u33" class="ax_default" data-label="预警区域" data-left="1456" data-top="201" data-width="418" data-height="315">

@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import VueResource from 'vue-resource'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
 Vue.use(VueRouter);
 Vue.use(VueResource);
 import home from "./components/home";
@@ -16,12 +19,15 @@ import gqpssyj from "./components/home/gqpssyj";
 import gqpswq from "./components/home/gqpswq";
 import gqpxq from "./components/home/gqpxq";
 import jsgk from "./components/home/jsgk";
-import jrsb from "./components/home/jrsb";
+import jrsb from "./components/home1/jrsb";
 import jtgqpgk from "./components/home/jtgqpgk";
 import swq from "./components/home/swq";
 import tqgk from "./components/home/tqgk";
 import content from "./components/content";
-import './assets/css/basic.css';
+import xxgqpgk from "./components/home1/xxgqpgk";
+import xxgqpxq from "./components/home1/xxgqpxq";
+import zjj from "./components/home1/zjj";
+import wybhqx from "./components/home1/wybhqx";
 import tc from './components/tc';
 const routes=[
   {path:'/home',component:home},
@@ -36,12 +42,16 @@ const routes=[
   {path:'/gqpgk',component:gqpgk},
   {path:'/gqpaqdj',component:gqpaqdj},
   {path:'/jtgqpgk',component:jtgqpgk},
-  {path:'/jrsb',component:jrsb},
   {path:'/jsgk',component:jsgk},
   {path:'/swq',component:swq},
   {path:'/tqgk',component:tqgk},
-  {path:'/content',component:content},
-  {path:'/tc',componemt:tc},
+  {path:'/content/:',component:content},
+  {path:'/tc',component:tc},
+  {path:'/jrsb',component:jrsb},
+  {path:'/xxgqpgk',component:xxgqpgk},
+  {path:'/xxgqpxq',component:xxgqpxq},
+  {path:'/zjj',component:zjj},
+  {path:'/wybhqx',component:wybhqx},
 
   {path:'*',redirect:'home'}
 ]

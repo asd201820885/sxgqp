@@ -5,12 +5,14 @@
     <br>
     <br>
 
+
   </div>
 </template>
 
 <script>
   import home from "./components/home";
   import Header1 from "./components/Header";
+
 export default {
   name: 'app',
   data () {
@@ -19,7 +21,8 @@ export default {
     }
   },components:{
       'v-header':Header1,
-        'v-home':home
+        'v-home':home,
+
     },methods:{
       show(){
           console.log('11111')
