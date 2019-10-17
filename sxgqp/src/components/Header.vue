@@ -43,7 +43,7 @@
     </div>
     <!--  home(矩形) -->
     <div id="u12" class="ax_default box_2">
-      <div id="u12_div" class=""></div>
+
       <div id="u12_text" class="text ">
         <p><router-link to="/home">首页</router-link></p>
       </div>
